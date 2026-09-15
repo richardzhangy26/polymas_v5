@@ -1,0 +1,30 @@
+# 凭证
+.env
+.env.*
+!.env.example
+
+# 缓存与系统文件
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+**/.DS_Store
+
+# 构建产物
+**/.docx-build/
+
+# 联调与测试运行时
+*.log
+ai翻转/data-law-case-expert/reports/
+ai翻转/data-law-case-expert/.online-e2e-state/
+北京师范大学-分子生物学/Helix-Qoder测试/isolated-user/
+北京师范大学-分子生物学/Helix-Qoder测试/runtime/
+北京师范大学-分子生物学/Helix-Qoder测试/runs/
+北京师范大学-分子生物学/Helix-Qoder测试/logs/
+
+# 工作截图
+**/企业微信截图*.png
+
+# 嵌套仓库备份，不入库
+**/.git.nested-backup/

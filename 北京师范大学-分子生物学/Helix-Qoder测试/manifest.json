@@ -1,0 +1,52 @@
+{
+  "qodercli_version": "1.1.32",
+  "model": "Qwen3.8-Flash",
+  "test_type": "offline_behavior_with_synthetic_results",
+  "skills": [
+    "bioinfo-db-search",
+    "deep-search",
+    "external-knowledge-search"
+  ],
+  "tools": [
+    "Read",
+    "Glob",
+    "Grep",
+    "Skill"
+  ],
+  "hashes": {
+    ".qoder/agents/helix-under-test.md": "510b86e881224ea536d017f1ce118f984ace8d5281431b41632656746c3b10a1",
+    ".qoder/settings.json": "3c3365bf98024becd7600018e657b6aa711004218b906701536826a6acbba8de",
+    ".qoder/skills/bioinfo-db-search/SKILL.md": "d9dc80e330835a089b130eb0075c45c2c4d516498b9b540e3cf79303d2a89d52",
+    ".qoder/skills/bioinfo-db-search/output_format/search-report.md": "e8df5c36caa22c2c587b15aadfae9d4db35513ab2c95cbef4fbcfb3a148be964",
+    ".qoder/skills/bioinfo-db-search/references/db-routing.md": "568a3980dd005643809cef0aa9c40201e2750de0fbeaebbfee47fe8293cda02b",
+    ".qoder/skills/bioinfo-db-search/references/evidence-contract.md": "83e509426ee4923168a9024633d3a60de61edec4f4461a86afb85623b3ef65ee",
+    ".qoder/skills/deep-search/SKILL.md": "58fb7d40a339be6ff1b7e7c39a421b5a1ed59db84171d3fd2ed7f849923d4ef4",
+    ".qoder/skills/deep-search/references/coverage_check.md": "27a900982714a379d7f4282958805c40b7464a183096a12db37d58e8802e6e42",
+    ".qoder/skills/deep-search/references/intent_prompt.md": "290ef821a3c8b616bf71a1d6d327ab6f34855290812df00df22da14ec6909266",
+    ".qoder/skills/deep-search/references/intent_recognize.md": "1035663b9e39116614870769d3c4f40b6a5306ca4f932957937bad433c658ee8",
+    ".qoder/skills/deep-search/scripts/deep_api.py": "ff0388dfbbea59a82b868d3d7b3a306f14e9bea00109e49c07669257aab48103",
+    ".qoder/skills/deep-search/scripts/deep_search.py": "3cccebaffdd3feadf95aa3e39a0f762a7efae2d5d52a271a53570fbcda5ca8b9",
+    ".qoder/skills/deep-search/scripts/kb_ids.py": "98a87c539e950c3607d20715968458542163949d7afbcc8dc1509c04673fa04e",
+    ".qoder/skills/deep-search/scripts/update_result.py": "157229b4b77c1ec7c64207f34ef456d0b549966a8bf8100db5cf3488527cddac",
+    ".qoder/skills/external-knowledge-search/SKILL.md": "a980267bb1269863195a204fbd71fc536cfa0ebcc21b403b81d1aba603354c94",
+    ".qoder/skills/external-knowledge-search/references/get_kbids.md": "758947d166c8484648bc4c55c0475877d5949bb002cfd7eb17fc8b1040ee49fe",
+    ".qoder/skills/external-knowledge-search/references/output_format.md": "22d710557e03b20b43db241b127a3c467cbba9e79e69d80d008a9974e44950d4",
+    ".qoder/skills/external-knowledge-search/references/router.md": "e541a16e636122526af67a0e52f7f78672b398328157ec14e2c7fd99d4cd4d4b",
+    ".qoder/skills/external-knowledge-search/scripts/compress_result.py": "06ce241c73d7a15e49cdf2de22fc8ede2a4dc84162624a5f081f5ebbeca9782c",
+    ".qoder/skills/external-knowledge-search/scripts/db_compress_result.py": "d8019d95163984960c1ab500fdf3873bac90eb536cda5ec71285176cd5b8e23b",
+    ".qoder/skills/external-knowledge-search/scripts/db_search.py": "f85ffee5636d6b064bba802a2e2a61c6d75c93b4fc3356317ceebe61dfa02e8a",
+    ".qoder/skills/external-knowledge-search/scripts/deep_api.py": "cd5feeaa8df49941163a9796535c889d54bec3967580c4fb0dbe0f92c3dfd20b",
+    ".qoder/skills/external-knowledge-search/scripts/deep_compress_result.py": "cbf0d523f4ca467d402db08ac6d64f0654d82f3378b7f2b32cb1e6d2158662e9",
+    ".qoder/skills/external-knowledge-search/scripts/deep_search.py": "95c57f35544433a17445b90a508e41cbf6f4b367dd62ab461672a4bbba66ae1d",
+    ".qoder/skills/external-knowledge-search/scripts/get_kbids.py": "3c378d23edce7103c081b5fac78126a018bbd2ad89ea4ea0daf6aaee45a00a16",
+    ".qoder/skills/external-knowledge-search/scripts/latex_utils.py": "98b053a1f2e251156ffdf4554eb51dd12345707051ec0e31caa18a2c62a3d4b1",
+    ".qoder/skills/external-knowledge-search/scripts/router.py": "0eb9fbd9bfb8117dd27886af8f03ad19762aa987018f0d0eaa6d0092dd784648",
+    ".qoder/skills/external-knowledge-search/scripts/search.py": "97fb56e25c37b8151db39ea414eaf1d34584d266f7077261a3481f16c582f8e2",
+    ".qoder/skills/external-knowledge-search/scripts/web_compress_result.py": "58102f0ca3792ce48043823d935fb09273d00cc7cca9e15301ea569bb085dbd3",
+    ".qoder/skills/external-knowledge-search/scripts/web_search.py": "2df1dcb149a557cede362ed3a1628f239a97cef626ea23a6c6f3430ef050361c",
+    "AGENTS.md": "f1fb64a9d182426957cdbaee154327812ef2f449d012d2b8d57f89946bbe976b",
+    "Expert-source.md": "e7d71c07c9af4d3a0990119e17808901a8a14686fd4ff88ee7dae01d7607846b"
+  },
+  "valid_batch": "runs/20260904-160128-455491",
+  "blocked_case": "07_public_backend"
+}
